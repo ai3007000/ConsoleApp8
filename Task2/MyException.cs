@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp3.Task1
+namespace Task2
 {
     /// <summary>
     /// Моё исключение
