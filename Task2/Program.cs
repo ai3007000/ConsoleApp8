@@ -11,8 +11,8 @@ namespace Task2
             {
                 ILogger Logger = new Logger();
 
-                var worker = new Worker(Logger);
-                ((IWorker)worker).Work();
+                IWorker worker = new Worker(Logger);
+                worker.Work();
                
             }
             catch (Exception ex)
