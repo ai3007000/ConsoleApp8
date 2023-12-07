@@ -11,7 +11,6 @@ namespace Task2
     /// </summary>
     class Logger : ILogger
     {
-        public Logger() { }
         /// <summary>
         /// Обработчик события
         /// </summary>
